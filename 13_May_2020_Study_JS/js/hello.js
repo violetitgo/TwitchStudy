@@ -1,4 +1,4 @@
-const nameContainer = document.querySelector(".myName");
+const nameContainer = document.querySelector(".js-name");
 
 function drawName(name) {
     nameContainer.innerHTML = "";

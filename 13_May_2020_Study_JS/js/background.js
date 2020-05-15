@@ -1,6 +1,6 @@
 const body = document.querySelector("body") ,
 // style을 넣어줄 변수
-locationText = document.querySelector(".location_text");
+locationText = document.querySelector(".js-location span");
 
 const API_KEY = "RrsXQArZ_PUsu8yV3vaAyQ6hmkKrBBWsbJA8t_173yg";
 
@@ -31,7 +31,7 @@ function saveBackGround(url,city,country,name){
 
     // 불러와야겠다.
 
-
+    loadBackGround();
 }
 
 

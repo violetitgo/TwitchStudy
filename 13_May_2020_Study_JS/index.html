@@ -10,20 +10,41 @@
 
 <body>
     <section class="center">
-    <div class="clock">
-        <h2 class="clock_text">00:00:00</h2>
-    </div>
-    <div class="myName"></div>
-</section>
+        <div class="js-clock clock">
+            <h2 class="clock__text">00:00:00</h2>
+        </div>
+        <div class="js-name name"></div>
+        <!--todoList-->
+        <div>
+            <form class="js-to-do to-do">
+                <input class="js-add-to-do to-do__add-to-do" placeholder="할일을 작성하세요." type="text" />
+            </form>
+            <ul class="js-list list">
+            </ul>
+        </div>
 
-    
-    <div class="location">
-        <span class="location_text">
+
+
+    </section>
+
+
+    <div class="js-location location">
+        <span class="location__text">
         </span>
     </div>
 
-<!-- 날씨, 지역 -->
+    <!-- 날씨, 지역 -->
 
+    </div>
+    <div class="js-weather weather">
+        <span class="weather__text"></span>
+        <span class="sunrise__text"></span>
+    </div>
+
+
+
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
     <script src="js/hello.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/background.js"></script>
